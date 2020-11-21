@@ -1,4 +1,4 @@
-# smallest-substring
+# smallest-substring with maximum number of distinct characters
 Noc = 256
 str="abcda"
 
