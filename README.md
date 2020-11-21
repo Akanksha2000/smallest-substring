@@ -21,8 +21,7 @@ def smalsub(str):
             subs = str[i:j] 
             sublen = len(subs) 
             sdc = mc(subs,sublen) 
-                
-            if (sublen < minl and md == sdc): 
-                minlen = sublen
-    return minlen
+            if(sublen<minlen and md==sdc):
+                minlen=sublen
+     return minlen
 l = smalsub(str); 
